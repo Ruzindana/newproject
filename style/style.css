@@ -11,7 +11,6 @@
     display: flex;
     width: 100%;
     padding: 5px;
-    margin: auto;
   }
   .nav ul a {
     margin-left: 5px;
@@ -20,8 +19,19 @@
   .nav ul a li {
     border-radius: 5px;
     padding: 5px;
-    margin: 5px;
+    margin-left: 15px;
     list-style: none;
     background-color: white;
+  }
+  .form {
+    background-color: red;
+  }
+  .form h1 {
+    text-align: center;
+    font-size: 19px;
+  }
+  .form form {
+    margin-top: 40px;
+    margin-left: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
