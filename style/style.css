@@ -273,6 +273,8 @@
     overflow: hidden;
   }
   .form {
+    border-radius: 0;
+    background: none;
     margin: 0;
     width: 100%;
     align-items: center;
@@ -299,6 +301,8 @@
   }
   .form form input {
     margin: 0;
+    height: 25px;
+    width: 50%;
   }
   .form form textarea {
     padding: 5px;
@@ -309,6 +313,7 @@
     background-color: greenyellow;
     box-shadow: 0 0 15px 0 white;
     width: 70%;
+    font-size: 19px;
   }
   .socials {
     background-color: grey;
