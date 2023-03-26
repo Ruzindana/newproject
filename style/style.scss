@@ -270,35 +270,27 @@
         border: 0;
     }
     .nav{
+        background-color: aliceblue;
+
+        ul{
+            background-color: aquamarine;
+            display: flex;
             width: 100%;
-            background-color: greenyellow;
-            ul{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 5px;
-                a{
-                    text-decoration: none;
-                    color: black;
-                    font-size: larger;
-                    list-style: none;
-        
-                    &:hover{
-                        transition: 1s ease;
-                        border-radius: 5px;
-                        color: white;
-                        background-color: green;
-                    }
-                }
+            padding: 5px;
+            margin: auto;
+            
+            a{
+                margin-left: 5px;
+                text-decoration: none;
+
                 li{
-                    padding: 15px;
+                    border-radius: 5px;
+                    padding: 5px;
+                    margin: 5px;
                     list-style: none;
+                    background-color: white;
                 }
             }
         }
-    //form
-
-    .form{
-        background-color: aqua;
     }
 }

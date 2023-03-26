@@ -4,32 +4,24 @@
     border: 0;
   }
   .nav {
-    width: 100%;
-    background-color: greenyellow;
+    background-color: aliceblue;
   }
   .nav ul {
+    background-color: aquamarine;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     padding: 5px;
+    margin: auto;
   }
   .nav ul a {
+    margin-left: 5px;
     text-decoration: none;
-    color: black;
-    font-size: larger;
-    list-style: none;
   }
-  .nav ul a:hover {
-    transition: 1s ease;
+  .nav ul a li {
     border-radius: 5px;
-    color: white;
-    background-color: green;
-  }
-  .nav ul li {
-    padding: 15px;
+    padding: 5px;
+    margin: 5px;
     list-style: none;
-  }
-  .form {
-    background-color: aqua;
+    background-color: white;
   }
 }/*# sourceMappingURL=style.css.map */
