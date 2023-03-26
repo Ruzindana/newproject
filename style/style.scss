@@ -372,5 +372,45 @@
                 width: 100%;
             }
         }
+
+        //about
+
+        
+    }
+    .bckgdinfo{
+        background-color: rgb(158, 206, 136);
+        margin: 0;
+        box-shadow: 0;
+
+        .sec{ 
+        display: flex;
+        flex-wrap: wrap;
+
+        .mission{
+            width: 100%;
+        }
+        .objectives{
+            width: 100%;
+        }
+        }
+    }
+    .services{
+        .serv-item{
+            display: flex;
+            flex-wrap: wrap;
+
+            .item{
+                width: 100%;
+            }
+        }
+    }
+    .gallery-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .g-item{
+            width: 100%;
+        }
     }
 }
